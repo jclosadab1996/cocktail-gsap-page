@@ -1,11 +1,28 @@
-# React + Vite
+# Cocktail GSAP Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto realizado como parte del curso de GSAP inspirado en JS Mastery (YouTube). Esta aplicación es una landing page interactiva de cócteles, desarrollada con React y animaciones avanzadas usando GSAP.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Librería principal para la construcción de la interfaz de usuario.
+- **Vite**: Herramienta de desarrollo para bundling y hot module replacement.
+- **GSAP (GreenSock Animation Platform)**: Librería para animaciones avanzadas y transiciones fluidas.
+- **JavaScript (ES6+)**
+- **CSS3**
+
+## Librerías y Dependencias
+
+- `react` y `react-dom`
+- `gsap`
+- `@vitejs/plugin-react`
+- Otras dependencias pueden consultarse en el archivo `package.json`.
+
+## Instalación y Puesta en Marcha
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/cocktail-gsap-page.git
+   ```
 
 ## Expanding the ESLint configuration
 

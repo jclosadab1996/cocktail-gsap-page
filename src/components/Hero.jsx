@@ -76,7 +76,7 @@ const Hero = () => {
         <h1 className="title">MOJITO</h1>
 
         <img
-          src="/images/hero-lefy-leaf.png"
+          src="/images/hero-left-leaf.png"
           alt="left-leaf"
           className="left-leaf"
         />
@@ -87,33 +87,35 @@ const Hero = () => {
         />
 
         <div className="body">
+          {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
+
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p>Cool. Crisp. Classic.</p>
               <p className="subtitle">
-                Sip the spirit <br /> of Summer
+                Sip the Spirit <br /> of Summer
               </p>
             </div>
 
-            <div className="view-coctails">
+            <div className="view-cocktails">
               <p className="subtitle">
                 Every cocktail on our menu is a blend of premium ingredients,
                 creative flair, and timeless recipes — designed to delight your
                 senses.
               </p>
-              <a href="#cocktails">View Cocktails</a>
+              <a href="#cocktails">View cocktails</a>
             </div>
           </div>
         </div>
       </section>
 
-      <div className="video absolute inset-8">
+      <div className="video absolute inset-0">
         <video
           ref={videoRef}
           muted
           playsInline
           preload="auto"
-          src="/videos/>output.mp4"
+          src="/videos/output.mp4"
         />
       </div>
     </>
